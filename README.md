@@ -1,5 +1,5 @@
 # ToDo App using React-with-Typescript
-This ToDo App helps you manage your tasks easily. You can add, edit, delete, and mark tasks as done. It's built using React and TypeScript for a better development experience.
+This ToDo App helps you manage your tasks easily. You can add, edit, delete, and mark tasks as done. It's built using HTML, React and TypeScript for a better development experience.
 
 **Features**
 - Add new tasks
