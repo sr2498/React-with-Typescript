@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# ToDO App using React with Typescript
+This ToDo App helps you manage your tasks easily. You can add, edit, delete and mark tasks as done. It's build using React and Typescript for a better development experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Features**
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Save your tasks locally
 
-Currently, two official plugins are available:
+**Prerequisites**
+- Install latest version of Node.js
+- Install npm or yarn
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Steps**
+- Clone the repository.
+- Install dependencies, npm install or yarn install.
+- Start the app, npm start or yarn start
 
-## Expanding the ESLint configuration
+**Usage**
+- Type your task in the input box.
+- Press'Add' button to add new task.
+- Click on the existing task and edit task and save it.
+- Delete the completed tasks.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Technologies Used**
+- React: For building the user interface(UI).
+- Typescript: For type safety.
+- CSS: For styling.
