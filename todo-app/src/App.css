@@ -1,42 +1,65 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --border-color: #ccc;
+  --hover-bg-color: #fef2f2;
+  --completed-text-color: #D14D72;
+  --button-bg-color: #D14D72;
+  --button-text-color: #FFF9F9;
+  --nav-link-color: #ccc;
+  --nav-link-hover-color: #3A3845;
+  --nav-link-active-color: #000;
+  --nav-link-active-border-color: #68B984;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main-task li:first-child {
+  border-top: .1rem solid var(--border-color);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-task li:hover {
+  background-color: var(--hover-bg-color);
+}
+
+.main-task li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: var(--completed-text-color);
+}
+
+.main-task li button {
+  padding: .6rem 1rem;
+  width: 7rem;
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  justify-self: center;
+  letter-spacing: .1rem;
+}
+
+nav a {
+  font-size: 2rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--nav-link-color);
+  border-bottom: .3rem solid transparent;
+  text-decoration: none; /* Ensure links don't have default underline */
+}
+
+nav a:hover {
+  border-color: var(--nav-link-hover-color);
+}
+
+nav a.active {
+  color: var(--nav-link-active-color);
+  border-color: var(--nav-link-active-border-color);
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  nav a {
+    font-size: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-task li button {
+    width: auto;
+    padding: .6rem;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
