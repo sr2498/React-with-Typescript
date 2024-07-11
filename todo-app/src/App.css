@@ -4,11 +4,50 @@
   --completed-text-color: #D14D72;
   --button-bg-color: #D14D72;
   --button-text-color: #FFF9F9;
-  --nav-link-color: #ccc;
+  --nav-link-color: #767474;
   --nav-link-hover-color: #3A3845;
   --nav-link-active-color: #000;
   --nav-link-active-border-color: #68B984;
 }
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles for the entire app */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: white;
+  color: rgba(20, 19, 19, 0.87);
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 
 .main-task li:first-child {
   border-top: .1rem solid var(--border-color);

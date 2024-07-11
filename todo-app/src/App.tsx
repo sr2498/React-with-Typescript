@@ -6,7 +6,7 @@ import "./App.css"
 
 const App = () => {
   return (
-    <div>
+    <div className="app-container">
       <h1>ToDo-List APP</h1>
       <Navbar />
       <AddToDo />
