@@ -12,8 +12,8 @@ const AddToDo = () => {
     }
 
   return (
-    <form onSubmit={handleFormSubmit }>
-        <input type="text" value={todo} onChange={(e) => setTodo(e.target.value)} />
+    <form className="form-container" onSubmit={handleFormSubmit }>
+        <input type="text" value={todo} onChange={(e) => setTodo(e.target.value)} placeholder="Enter your todo task..."/>
         <button type='submit'>Add</button>       
     </form>
   )
