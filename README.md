@@ -29,3 +29,5 @@ This ToDo App helps you manage your tasks easily. You can add, edit, delete, and
 - CSS: For styling.
 
 **Screenshot**
+
+![Screen Shot 2024-07-11 at 12 50 44 AM](https://github.com/sr2498/React-with-Typescript/assets/134464080/33122be4-6049-4dff-bf3c-7de45edbfd08)
