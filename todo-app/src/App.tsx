@@ -1,6 +1,7 @@
 import React from 'react'
 import AddToDo from './components/AddToDo'
 import Todos from './components/Todos'
+import "./App.css"
 
 const App = () => {
   return (
