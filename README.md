@@ -13,7 +13,7 @@ This ToDo App helps you manage your tasks easily. You can add, edit, delete, and
 - Install npm or yarn
 
 **Steps**
-- Clone the repository.
+- Clone the repository
 - Install dependencies, npm install or yarn install
 - Start the app, npm start or yarn start
 
