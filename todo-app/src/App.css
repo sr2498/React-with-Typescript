@@ -133,22 +133,18 @@ nav a {
   margin-right: 1rem;
   text-decoration: none; /* Ensure links don't have default underline */
 }
-
 nav a:hover {
   border-color: var(--nav-link-hover-color);
 }
-
 nav a.active {
   color: var(--nav-link-active-color);
   border-color: var(--nav-link-active-border-color);
 }
-
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
   nav a {
     font-size: 1.5rem;
   }
-
   .main-task li button {
     width: auto;
     padding: .6rem;
