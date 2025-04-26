@@ -9,12 +9,14 @@
   --nav-link-active-color: #000;
   --nav-link-active-border-color: #68B984;
 }
+
 /* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* Global styles for the entire app */
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
