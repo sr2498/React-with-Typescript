@@ -25,7 +25,7 @@ To run the application, ensure you have the following installed on your system:
 - Delete the completed tasks.
 
 ## Technologies Used
-- **React:** For building the user interface(UI).
+- **React:** For building user-friendly User Interface(UI).
 - **TypeScript:** For type safety.
 - **CSS:** For styling.
 
